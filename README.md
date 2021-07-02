@@ -1,4 +1,4 @@
-# Song Popularity Predictor (Open IIT Data Analytics 2020-21)
+## Song Popularity Predictor (Open IIT Data Analytics 2020-21)
 
 ### Problem Statement:
 Predict popularity of music tracks based on features provided in the dataset.
