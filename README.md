@@ -9,7 +9,7 @@ The target variable, **popularity** has five categories:
 4. Low 
 5. Very Low
 
-For each category their is an initial bid price (royalties to be paid) and expected revenue collection (in 10k $) as follows:
+For each category there is an initial bid price (royalties to be paid) and expected revenue collection (in 10k $) as follows:
 | Popularity  | Bid Price | Expected Revenue |
 | ----------- | --------- | ---------------- |
 | Very High   | 5         | 10               |
@@ -30,5 +30,3 @@ Thereby even if one of the models predicted a certain datapoint to have a class 
 * For example, if the actual category of a song was “high”, if two of the models predicted the song to be of category “average” and the other “high”. Then had we applied a single model we would have got a revenue of **2 * 4 = 8**, on average it would be **$8/3**. But on applying a ceiling function on the predicted output we would have classified it correctly as “high” hence a revenue of **$8**.
 
 * Taking another example if the actual category was “high”, if two of the models predicted the song to be of category “high” and the other “average”. Then if had we applied a single model we would have got a revenue of **2 * (2 * 4) = 16**, on average it would be **$16/3**. But on applying a ceiling function on the predicted output we would have classified it correctly as “high” hence a revenue of **$8**.
-
-
